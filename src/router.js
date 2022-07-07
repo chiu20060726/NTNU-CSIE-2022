@@ -3,9 +3,10 @@ import { createWebHistory, createRouter } from "vue-router";
 const history = createWebHistory();
 
 const routes = [
-    { path: "/", name: "home", component: () => import("./views/Home.vue") },
-    { path: "/about", name: "about", component: () => import("./views/About.vue") },
-    { path: "/projects", name: "projects", component: () => import("./views/Projects.vue") },
+    { path: "/", name: "主頁面", component: () => import("./views/Home.vue") },
+    { path: "/about", name: "關於我", component: () => import("./views/About.vue") },
+    { path: "/projects", name: "我參與的計畫", component: () => import("./views/Projects.vue") },
+    { path: "/History", name: "經歷", component: () => import("./views/History.vue") },
     { path: "/:catchAll(.*)*", redirect: "/" },
 ];
 

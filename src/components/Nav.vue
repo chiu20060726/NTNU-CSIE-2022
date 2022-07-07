@@ -1,8 +1,9 @@
 <script setup>
 const links = [
-    { text: "Me", url: "/" },
-    { text: "About", url: "/about" },
-    { text: "Projects", url: "/projects" },
+    { text: "主頁面", url: "/" },
+    { text: "關於我", url: "/about" },
+    { text: "我參與的計畫", url: "/projects" },
+    { text: "經歷", url: "/history" },
 ];
 </script>
 
