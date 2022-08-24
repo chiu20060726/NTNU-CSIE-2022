@@ -13,5 +13,5 @@ export default defineConfig({
             { find: "@components", replacement: path.resolve(__dirname, "./src/components") },
         ],
     },
-    base:"/NTNU-CSIE-2022/"
+    base:"/web/"
 });

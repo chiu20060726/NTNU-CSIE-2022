@@ -12,27 +12,7 @@ for (let i = 1; i <= 40; i++) {
         .padStart(2, "0")}.png`;
 }
 pic.avatars.push(
-    "https://spy-family.net/assets/img/special/episode4/02.png",
-    "https://spy-family.net/assets/img/special/episode4/05.png",
-    "https://spy-family.net/assets/img/special/episode5/01.png",
-    "https://spy-family.net/assets/img/special/episode5/02.png",
-    "https://spy-family.net/assets/img/special/episode6/03.png",
-    "https://spy-family.net/assets/img/special/episode6/05.png",
-    "https://spy-family.net/assets/img/special/episode7/01.png",
-    "https://spy-family.net/assets/img/special/episode7/03.png",
-    "https://spy-family.net/assets/img/special/episode7/04.png",
-    "https://spy-family.net/assets/img/special/episode8/01.png",
-    "https://spy-family.net/assets/img/special/episode9/04.png",
-    "https://spy-family.net/assets/img/special/episode10/02.png",
-    "https://spy-family.net/assets/img/special/episode10/03.png",
-    "https://spy-family.net/assets/img/special/episode10/04.png",
-    "https://spy-family.net/assets/img/special/episode11/01.png",
-    "https://spy-family.net/assets/img/special/episode11/02.png",
-    "https://spy-family.net/assets/img/special/episode11/03.png",
-    "https://spy-family.net/assets/img/special/episode11/04.png",
-    "https://spy-family.net/assets/img/special/episode11/06.png",
-    "https://spy-family.net/assets/img/special/episode12/03.png",
-    "https://spy-family.net/assets/img/special/episode12/06.png",
+    
 );
 
 const titles = ["First-Grade Student", "Test Subject 007", "Telepath"];

@@ -1,9 +1,8 @@
 <script setup>
 const links = [
     { text: "主頁面", url: "/" },
-    { text: "關於我", url: "/about" },
-    { text: "我參與的計畫", url: "/projects" },
-    { text: "經歷", url: "/history" },
+    { text: "關於我們", url: "/about" },
+    { text: "我們的的作品", url: "/projects" },
 ];
 </script>
 
@@ -49,10 +48,10 @@ const links = [
             leave-to-class="transform -translate-x-32"
         >
             <div
-                class="absolute top-4 left-4 z-50 h-20 w-20 overflow-hidden rounded-full bg-pink-200 shadow-md shadow-blue-300 ring-1 ring-violet-700 md:h-24 md:w-24"
+                class="absolute top-4 left-4 z-50 h-20 w-full overflow-hidden rounded-full bg-pink-200 shadow-md shadow-blue-300 ring-1 ring-violet-700 md:h-24 md:w-24"
                 v-if="$route.path !== '/about'"
             >
-                <img src="https://avatars.githubusercontent.com/u/96660932?s=400&v=4" class="w-full rounded-full" />
+                <img src="https://avatars.githubusercontent.com/u/108934761?s=400&v=4" class="w-full rounded-full" />
             </div>
         </transition>
     </div>

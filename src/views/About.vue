@@ -10,13 +10,13 @@ const step = ref(0);
         <Typing
             v-if="step >= 0"
             @done="step++"
-            text="關於我"
+            text="關於我們"
             class="mb-8 block text-2xl sm:text-3xl lg:text-4xl"
         />
 
-        <Typing v-if="step >= 1" @done="step++" text="邱靖舜，一個喜歡看動漫跟VTB的死胖子" />
+        <Typing v-if="step >= 1" @done="step++" text="大家好，我們是中正資研" />
         <br>
-        <Typing v-if="step >= 2" @done="step++" text="美術極差(這地方應該看得出來)" />
+        <Typing v-if="step >= 2" @done="step++" text="一個喜歡資訊的社團(?" />
         <br><br>
         <Typing
             v-if="step >= 0"
@@ -24,17 +24,17 @@ const step = ref(0);
             text="會的語言"
             class="mb-8 block text-2xl sm:text-3xl lg:text-4xl"
         />
-        <Typing v-if="step >= 1" @done="step++" text="中文 ENGLISH HTML CSS JS(jquery) php C++ C# python" />
+        <Typing v-if="step >= 1" @done="step++" text="中文 ENGLISH HTML CSS JS(jquery) php C++ python" />
         <br><br>
         <Typing
             v-if="step >= 0"
             @done="step++"
-            text="推的VTB"
+            text="預計教"
             class="mb-8 block text-2xl sm:text-3xl lg:text-4xl"
         />
-        <Typing v-if="step >= 1" @done="step++" text="我是一個DD，所以幾乎所有都推，全都我婆(誤" />
+        <Typing v-if="step >= 1" @done="step++" text="Github使用、基本前端網頁、APCS程式(C++ python)" />
         <br>
-        <Typing v-if="step >= 1" @done="step++" text="硬要說的話，主推HOLOLIVE EN Mori Calliope" />
+        <Typing v-if="step >= 1" @done="step++" text="當然，如果有其他想學的，也可私訊教學，我們也會盡力提供協助" />
 
     </div>
 </template>

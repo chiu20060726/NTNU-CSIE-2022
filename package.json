@@ -3,9 +3,9 @@
     "name": "my-portfolio",
     "version": "0.0.0",
     "author": {
-        "name": "JacobLinCool",
-        "email": "hi@jacoblin.cool",
-        "url": "https://github.com/JacobLinCool"
+        "name": "csc20060726",
+        "email": "s1100325@stu.ccsh.tp.edu.tw",
+        "url": "https://github.com/chiu20060726"
     },
     "scripts": {
         "dev": "vite",

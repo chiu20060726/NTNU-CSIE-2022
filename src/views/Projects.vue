@@ -14,7 +14,7 @@ function random_text(length = 32) {
 </script>
 <template>
     <div class="h-full w-full px-8 pt-16 sm:px-12 sm:pt-20 lg:px-16 lg:pt-24">
-        <Typing text="我的作品集" class="block text-2xl sm:text-3xl lg:text-4xl" />
+        <Typing text="作品集" class="block text-2xl sm:text-3xl lg:text-4xl" />
         <div class="py-2">
             <Project
                 v-for="(project, index) in projects"
@@ -23,9 +23,6 @@ function random_text(length = 32) {
                 class="my-2 w-full rounded-md bg-white bg-opacity-50 p-4 shadow-md shadow-indigo-200"
             />
         </div>
-        <div class="opacity-0">
-            I'm so cute!<br />
-            Waku Waku!
-        </div>
+        
     </div>
 </template>
