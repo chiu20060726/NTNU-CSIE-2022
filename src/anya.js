@@ -34,7 +34,7 @@ const about = [
 
 const projects = [
     {
-        name: "use github rickroll",
+        name: "use github rickrol",
         description: "Never gonna give you up",
         image: "https://s.yimg.com/ny/api/res/1.2/xQD.4JGpg6XIJzx.SbQkiA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://s.yimg.com/uu/api/res/1.2/Rffcviow.eCHjmEu2msLJg--~B/aD0xNzU3O3c9MjM0MzthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insider_articles_922/c6ce8d0b9a7b28f9c2dee8171da98b8f",
         skills: ["rick roll", "html", "re url", "GitHub"],
